@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Grandma TV",
+  "version": "1.0.1",
+  "description": "Simple click-based television interface for navigating youtube.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["shows.js", "content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
