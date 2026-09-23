@@ -1,8 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Grandma TV",
-  "version": "1.0.1",
-  "description": "Simple click-based television interface for navigating youtube.",
+  "name": "ClarityTV",
+  "version": "2.0.0",
+  "description": "Zero-interface spatial interaction model for elderly media consumption.",
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
